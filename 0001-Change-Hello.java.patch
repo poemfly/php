@@ -1,0 +1,196 @@
+From da4d6350fb1eea26ed67c75a2a769624eb131c20 Mon Sep 17 00:00:00 2001
+From: mldn <mldnqa@163.com>
+Date: Sun, 11 Dec 2016 10:10:29 +0800
+Subject: [PATCH] Change Hello.java
+
+---
+ Action.java |  7 ------
+ Admin.java  | 12 ---------
+ Dept.java   |  9 -------
+ Emp.java    | 11 --------
+ Hello.java  | 10 ++++++++
+ patch       | 83 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 6 files changed, 93 insertions(+), 39 deletions(-)
+ delete mode 100644 Action.java
+ delete mode 100644 Admin.java
+ delete mode 100644 Dept.java
+ delete mode 100644 Emp.java
+ create mode 100644 Hello.java
+ create mode 100644 patch
+
+diff --git a/Action.java b/Action.java
+deleted file mode 100644
+index 6bb6de8..0000000
+--- a/Action.java
++++ /dev/null
+@@ -1,7 +0,0 @@
+-public class Action 
+-{
+-	private int acid;
+-
+-	private String fff;
+-	System.out.println("增加Action");
+-}
+\ No newline at end of file
+diff --git a/Admin.java b/Admin.java
+deleted file mode 100644
+index d66e858..0000000
+--- a/Admin.java
++++ /dev/null
+@@ -1,12 +0,0 @@
+-import java.util.List;
+-public class Admin
+-{
+-	private List<Emp> emps;
+-
+-	private String aid ;
+-	private String password;
+-	System.out.println("***********世界你好*******");
+-	System.out.println("*********master 分支也做了修改");
+-
+-	System.out.println("修改Admin");
+-}
+\ No newline at end of file
+diff --git a/Dept.java b/Dept.java
+deleted file mode 100644
+index 3ea982f..0000000
+--- a/Dept.java
++++ /dev/null
+@@ -1,9 +0,0 @@
+-class Dept
+-{
+-	private Integer empno;
+-	private String ename;
+-	System.out.println("bug分支修改");
+-	System.out.println("bug分支修改");
+-	System.out.println("bug分支修改");
+-	System.out.println("bug分支修改");
+-}
+\ No newline at end of file
+diff --git a/Emp.java b/Emp.java
+deleted file mode 100644
+index c111a9b..0000000
+--- a/Emp.java
++++ /dev/null
+@@ -1,11 +0,0 @@
+-import java.util.List;
+-public class Admin
+-{
+-	System.out.println("***********世界你好*******");
+-	System.out.println("***********世界你好*******");
+-	System.out.println("***********世界你好*******");
+-	System.out.println("***********世界你好*******");
+-	System.out.println("**********dev分支修改*******");
+-	System.out.println("**********dev分支修改*******");
+-	System.out.println("**********dev分支修改*******");
+-}
+\ No newline at end of file
+diff --git a/Hello.java b/Hello.java
+new file mode 100644
+index 0000000..cb99f76
+--- /dev/null
++++ b/Hello.java
+@@ -0,0 +1,10 @@
++import java.util.List;
++public class Admin
++{
++	System.out.println("***********脢脌陆莽脛茫潞脙*******");
++	System.out.println("***********脢脌陆莽脛茫潞脙*******");
++	System.out.println("***********脢脌陆莽脛茫潞脙*******");
++	System.out.println("***********脢脌陆莽脛茫潞脙*******");
++	System.out.println("dev路脰脰搂脨脼赂脛");
++	System.out.println("淇敼Pat鍒嗘敮");
++}
+\ No newline at end of file
+diff --git a/patch b/patch
+new file mode 100644
+index 0000000..81e4e6c
+--- /dev/null
++++ b/patch
+@@ -0,0 +1,83 @@
++diff --git a/Action.java b/Action.java
++deleted file mode 100644
++index 6bb6de8..0000000
++--- a/Action.java
+++++ /dev/null
++@@ -1,7 +0,0 @@
++-public class Action 
++-{
++-	private int acid;
++-
++-	private String fff;
++-	System.out.println("增加Action");
++-}
++\ No newline at end of file
++diff --git a/Admin.java b/Admin.java
++deleted file mode 100644
++index d66e858..0000000
++--- a/Admin.java
+++++ /dev/null
++@@ -1,12 +0,0 @@
++-import java.util.List;
++-public class Admin
++-{
++-	private List<Emp> emps;
++-
++-	private String aid ;
++-	private String password;
++-	System.out.println("***********世界你好*******");
++-	System.out.println("*********master 分支也做了修改");
++-
++-	System.out.println("修改Admin");
++-}
++\ No newline at end of file
++diff --git a/Dept.java b/Dept.java
++deleted file mode 100644
++index 3ea982f..0000000
++--- a/Dept.java
+++++ /dev/null
++@@ -1,9 +0,0 @@
++-class Dept
++-{
++-	private Integer empno;
++-	private String ename;
++-	System.out.println("bug分支修改");
++-	System.out.println("bug分支修改");
++-	System.out.println("bug分支修改");
++-	System.out.println("bug分支修改");
++-}
++\ No newline at end of file
++diff --git a/Emp.java b/Emp.java
++deleted file mode 100644
++index c111a9b..0000000
++--- a/Emp.java
+++++ /dev/null
++@@ -1,11 +0,0 @@
++-import java.util.List;
++-public class Admin
++-{
++-	System.out.println("***********世界你好*******");
++-	System.out.println("***********世界你好*******");
++-	System.out.println("***********世界你好*******");
++-	System.out.println("***********世界你好*******");
++-	System.out.println("**********dev分支修改*******");
++-	System.out.println("**********dev分支修改*******");
++-	System.out.println("**********dev分支修改*******");
++-}
++\ No newline at end of file
++diff --git a/Hello.java b/Hello.java
++new file mode 100644
++index 0000000..5a31d7b
++--- /dev/null
+++++ b/Hello.java
++@@ -0,0 +1,9 @@
+++import java.util.List;
+++public class Admin
+++{
+++	System.out.println("***********世界你好*******");
+++	System.out.println("***********世界你好*******");
+++	System.out.println("***********世界你好*******");
+++	System.out.println("***********世界你好*******");
+++	System.out.println("dev分支修改");
+++}
++\ No newline at end of file
+-- 
+2.6.2.windows.1
+
