@@ -6,3 +6,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 12312423525463
+
+To https://github.com/poemfly/erp.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/poemfly/erp.git'
+
+
+
+PHP。。。。。。。
