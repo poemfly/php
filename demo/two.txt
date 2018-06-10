@@ -1,2 +1,0 @@
-hello World ,
-欢迎来到.新手git
