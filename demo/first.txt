@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 hello World ,
 欢迎来到.新手git
+=======
+hello World ,
+欢迎来到.新手git
+>>>>>>> 5fc6b6a26de115c9249601ef60b52f036710d95d
